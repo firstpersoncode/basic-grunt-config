@@ -8,7 +8,6 @@ module.exports = function(grunt) {
 
     // copy files
     copy: {
-      // config for one file
       main: { // copy index.html
         cwd: 'src',
         src: '*.html',
