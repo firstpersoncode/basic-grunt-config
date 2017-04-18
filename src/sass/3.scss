@@ -1,0 +1,20 @@
+nav {
+  background: #E78724;
+  border-bottom: 10px solid #463014;
+  ul {
+    text-align: right;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: #FFF;
+      }
+    }
+  }
+}

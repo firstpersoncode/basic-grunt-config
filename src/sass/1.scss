@@ -1,0 +1,40 @@
+.container {
+  padding: 0 10px;
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  h1 {
+    text-align: center;
+    color: #FBA919;
+    margin: 5px 0;
+    font-size: 3rem;
+    text-shadow: 3px 3px 0 #463014;
+  }
+  .col {
+    float: left;
+    width: 50%;
+
+    &.right {
+      display: none;
+    }
+
+    > div {
+      padding: 15px;
+      margin: 10px 0;
+      background: blue;
+      border-bottom: solid 10px #463014;
+
+      a {
+        color: #FFF;
+        text-decoration: none;
+      }
+      h3 {
+        margin: 5px 0;
+        font-size: 2rem;
+        color: #463014;
+      }
+    }
+  }
+}

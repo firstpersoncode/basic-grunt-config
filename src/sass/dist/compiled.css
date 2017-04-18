@@ -1,0 +1,56 @@
+.container {
+  padding: 0 10px; }
+  .container:after {
+    content: "";
+    clear: both;
+    display: block; }
+  .container h1 {
+    text-align: center;
+    color: #FBA919;
+    margin: 5px 0;
+    font-size: 3rem;
+    text-shadow: 3px 3px 0 #463014; }
+  .container .col {
+    float: left;
+    width: 50%; }
+    .container .col.right {
+      display: none; }
+    .container .col > div {
+      padding: 15px;
+      margin: 10px 0;
+      background: blue;
+      border-bottom: solid 10px #463014; }
+      .container .col > div a {
+        color: #FFF;
+        text-decoration: none; }
+      .container .col > div h3 {
+        margin: 5px 0;
+        font-size: 2rem;
+        color: #463014; }
+
+.grunt-logo {
+  text-align: center;
+  background: none !important;
+  border: none !important; }
+  .grunt-logo > img {
+    width: 250px;
+    height: auto;
+    display: inline-block; }
+
+nav {
+  background: #E78724;
+  border-bottom: 10px solid #463014; }
+  nav ul {
+    text-align: right;
+    margin: 0;
+    list-style: none;
+    padding-left: 0; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: #FFF; }
+
+/*# sourceMappingURL=compiled.css.map */
