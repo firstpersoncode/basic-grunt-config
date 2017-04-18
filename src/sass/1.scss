@@ -16,6 +16,10 @@
     float: left;
     width: 50%;
 
+    @media (max-width: 992px) {
+      width: 100%;
+    }
+
     &.right {
       display: none;
     }
@@ -23,7 +27,7 @@
     > div {
       padding: 15px;
       margin: 10px 0;
-      background: blue;
+      background: #FBA919;
       border-bottom: solid 10px #463014;
 
       a {

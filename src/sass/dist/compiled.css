@@ -13,12 +13,15 @@
   .container .col {
     float: left;
     width: 50%; }
+    @media (max-width: 992px) {
+      .container .col {
+        width: 100%; } }
     .container .col.right {
       display: none; }
     .container .col > div {
       padding: 15px;
       margin: 10px 0;
-      background: blue;
+      background: #FBA919;
       border-bottom: solid 10px #463014; }
       .container .col > div a {
         color: #FFF;
@@ -31,7 +34,12 @@
 .grunt-logo {
   text-align: center;
   background: none !important;
-  border: none !important; }
+  border: none !important;
+  transition: ease-out .5s;
+  cursor: pointer; }
+  @media (min-width: 992px) {
+    .grunt-logo:hover {
+      transform: scale(1.15); } }
   .grunt-logo > img {
     width: 250px;
     height: auto;
